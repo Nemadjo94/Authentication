@@ -11,13 +11,13 @@ export default class App extends React.Component {
   
   componentWillMount(){
     firebase.initializeApp({
-        apiKey: "AIzaSyD3uuN6DUWWXHvKJxsaOjFKow__PAc7uP4",
-        authDomain: "authapp-e0a97.firebaseapp.com",
-        databaseURL: "https://authapp-e0a97.firebaseio.com",
-        projectId: "authapp-e0a97",
-        storageBucket: "authapp-e0a97.appspot.com",
-        messagingSenderId: "966276239553",
-        appId: "1:966276239553:web:775a1909ba910c91"
+        apiKey: "",
+        authDomain: "",
+        databaseURL: "",
+        projectId: "",
+        storageBucket: "",
+        messagingSenderId: "",
+        appId: ""
     });
 
     firebase.auth().onAuthStateChanged((user) => {
